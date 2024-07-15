@@ -1,0 +1,36 @@
+body {
+    /* 배경 이미지 설정 */
+    background-image: url('C:\Users\일타보람\OneDrive\바탕 화면\cnsaxy\background.png');
+    /* 배경 이미지 크기 조정 */
+    background-size: cover; /* 화면에 꽉 채우도록 */
+    /* 배경 이미지 반복 설정 */
+    background-repeat: no-repeat; /* 반복하지 않음 */
+    /* 배경 이미지 위치 조정 */
+    background-position: center center; /* 가운데 정렬 */
+    /* 배경 색상 fallback (배경 이미지 로딩 전에 보여질 색) */
+    background-color: #f0f0f0; /* 회색 배경 */
+    /* 추가적인 스타일링 */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+.button-container {
+    position: fixed;
+    bottom: 20px; /* 페이지 하단에서 20px 떨어진 위치 */
+    left: 50%; /* 페이지 가운데 정렬을 위한 추가 설정 */
+    transform: translateX(-50%); /* 가운데 정렬을 위한 설정 */
+}
+    .button-container {
+    text-align: center;
+}
+
+.button-container img {
+    width: 200px; 
+    height: auto;
+}
+
+.button-container img:hover {
+    opacity: 0.8;
+    cursor: pointer; 
+}

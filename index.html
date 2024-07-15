@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cnsaxy</title>
+</head>
+<body>
+    <p>cnsaxy에 오신 것을 환영합니다!</p>
+</body>
+<div class="background-container">
+    <img src="background.png" alt="Background Image" class="background-image">
+</div>
+<div class="button-container">
+    <a href="link1.html" target="_blank">
+        <img src="C:\Users\일타보람\OneDrive\바탕 화면\cnsaxy\스크린샷 2024-07-15 013013.png" alt="click me!">
+    </a>
+</div>
+
+<style>
+    .background-container {
+    width: 100vw; /* 혹은 원하는 너비 */
+    height: 100vh; /* 혹은 원하는 높이 */
+    overflow: hidden;
+    position: relative; /* 필요에 따라 조정 */
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 이미지를 컨테이너에 맞게 크롭 */
+}
+.button-container {
+    position: fixed;
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+    .button-container {
+    text-align: center;
+}
+
+.button-container img {
+    width: 200px; 
+    height: auto;
+}
+
+.button-container img:hover {
+    opacity: 0.8;
+    cursor: pointer; 
+}
+</style>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cnsaxy</title>
+</head>
+<body>
+    <div class="container">
+        <div class="planet">
+            <a href="planet1.html"><img src="C:\Users\일타보람\OneDrive\바탕 화면\cnsaxy\행성1.png" alt="행성 1"></a>
+            <figcaption>태양질량 1배</figcaption>
+        </div>
+        <div class="planet">
+            <a href="planet2.html"><img src="C:\Users\일타보람\OneDrive\바탕 화면\cnsaxy\행성2.png" alt="행성 2"></a>
+            <figcaption>태양질량 4배</figcaption>
+        </div>
+        <div class="planet">
+            <a href="planet3.html"><img src="C:\Users\일타보람\OneDrive\바탕 화면\cnsaxy\행성3.png" alt="행성 3"></a>
+            <figcaption>태양질량 8배</figcaption>
+        </div>
+        <div class="planet">
+            <a href="planet4.html"><img src="C:\Users\일타보람\OneDrive\바탕 화면\cnsaxy\행성4.png" alt="행성 4"></a>
+            <figcaption>태양질량 10배</figcaption>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+}
+
+.container {
+    display: flex;
+    gap: 20px; 
+}
+
+.planet {
+    flex: 1; 
+}
+
+.planet img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+}
+.planet figcaption {
+    margin-top: 10px;
+    font-size: 14px; 
+    color: #666; 
+}
+</style>
+</html>
